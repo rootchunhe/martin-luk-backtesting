@@ -6,9 +6,10 @@ llvmlite==0.46.0
 scipy==1.17.1
 statsmodels==0.14.6
 matplotlib==3.10.1
-wrds==3.4.0
 psycopg2-binary==2.9.10
 SQLAlchemy==2.0.40
 patsy==1.0.2
 python-dateutil==2.9.0.post0
 pytz==2025.2
+# wrds==3.4.0 is needed for data.py and backtest.py (not for selfcheck.py). Its metadata caps pandas at 2.2 although it runs on
+# pandas 3, so install it without dependency resolution:  pip install --no-deps wrds==3.4.0

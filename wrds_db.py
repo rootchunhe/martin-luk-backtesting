@@ -1,6 +1,5 @@
 """WRDS connection wrapper. Credentials come from ~/.pgpass (never from this repository)."""
 import time
-import wrds
 import pandas as pd
 
 _conn = None
@@ -8,6 +7,7 @@ _conn = None
 def conn():
     global _conn
     if _conn is None:
+        import wrds                                   # imported here so the engine and selfcheck.py run without the wrds package
         _conn = wrds.Connection(autoconnect=True)
     return _conn
 

@@ -211,6 +211,7 @@ WRDS account with CRSP, TAQ and Fama-French access, credentials in `~/.pgpass` (
 ```bash
 python3 -m venv .venv && source .venv/bin/activate     # Python 3.12
 pip install -r requirements.txt                        # the versions the results were produced with
+pip install --no-deps wrds==3.4.0                      # the WRDS client; its metadata caps pandas at 2.2, it runs on pandas 3
 python3 selfcheck.py                                   # engine checks, no data needed, exit code 1 on failure
 python3 data.py prepare --shards 4                     # CRSP, factors, feature panel, candidate stock-days, the frozen download plan
 for i in 1 2 3 4; do python3 data.py download --shard $i & done; wait    # four workers, about two hours; re-run to resume
