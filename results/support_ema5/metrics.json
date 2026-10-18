@@ -1,0 +1,167 @@
+{
+ "n": 474,
+ "per_year": 44.570149253731344,
+ "win": 0.22362869198312235,
+ "avg_trade": 0.007820072154247949,
+ "median_trade": -0.025854630329556268,
+ "avg_win": 0.14000464829552758,
+ "avg_loss": -0.030254832929924997,
+ "payoff": 4.627513515602635,
+ "pf": 1.2737904804242681,
+ "vol": 0.140816450175353,
+ "total": 1.0952448860868809,
+ "cagr": 0.07202684125418823,
+ "sharpe": 0.39979933603876405,
+ "maxdd": -0.18075510849527898,
+ "underwater_days": 1030,
+ "exposure": 0.11909285499824197,
+ "hold_win": 10.0,
+ "hold_loss": 2.0,
+ "alpha_annual": 0.051445868973576635,
+ "alpha_t": 1.1440854691874403,
+ "beta_mkt": 0.06929115300745539,
+ "notes": [
+  "5 EMA support: only the touches inside the 9 EMA download zone are observed (the 5 EMA sits above the 9 in an uptrend); entry count is a lower bound",
+  "73 candidate stock-days were queried and had no eligible print (empty)",
+  "7844 of 324807 candidate stock-days were too thinly traded for close_confirm (min_bars / max_stale_minutes)"
+ ],
+ "qqq": {
+  "cagr": 0.19940989173739343,
+  "vol": 0.2227323384737604,
+  "sharpe": 0.8258648275683357,
+  "maxdd": -0.3512278500479289,
+  "underwater_days": 493,
+  "alpha_annual": 0.030326795232523924,
+  "alpha_t": 1.9203398063700883,
+  "beta_mkt": 1.1108782677197424,
+  "r2": 0.946150314526963
+ },
+ "qqq_vol_matched": {
+  "cagr": 0.1378283013899544,
+  "vol": 0.1407928321537492,
+  "sharpe": 0.8258648275683086,
+  "maxdd": -0.2298561131030239,
+  "underwater_days": 388,
+  "alpha_annual": 0.019169712254228963,
+  "alpha_t": 1.9203398063697097,
+  "beta_mkt": 0.7021914639641833,
+  "r2": 0.9461503145269629
+ },
+ "qqq_vol_scale": 0.6321047808465503,
+ "momentum": {
+  "cagr": 0.2099863766359471,
+  "vol": 0.32149528740534694,
+  "sharpe": 0.6836614548938658,
+  "maxdd": -0.46215138991463,
+  "underwater_days": 914,
+  "alpha_annual": 0.07463379548271788,
+  "alpha_t": 1.748266379479364,
+  "beta_mkt": 1.1700993967432944,
+  "r2": 0.8180596967701227
+ },
+ "momentum_vol_matched": {
+  "cagr": 0.11529903641227635,
+  "vol": 0.14081277199582473,
+  "sharpe": 0.6836614548938218,
+  "maxdd": -0.21553714893645248,
+  "underwater_days": 753,
+  "alpha_annual": 0.03268995395797768,
+  "alpha_t": 1.7482663794790267,
+  "beta_mkt": 0.5125090471200862,
+  "r2": 0.8180596967701226
+ },
+ "leaders": {
+  "cagr": -0.19249806635788336,
+  "vol": 0.5018197446526798,
+  "sharpe": -0.22019975962516444,
+  "maxdd": -0.9495010610764723,
+  "underwater_days": 2507,
+  "alpha_annual": -0.1934338280686851,
+  "alpha_t": -1.6047167162765268,
+  "beta_mkt": 0.9004645663940096,
+  "r2": 0.31855007315335304
+ },
+ "leaders_vol_matched": {
+  "cagr": -0.017952445592955613,
+  "vol": 0.14082225576009416,
+  "sharpe": -0.22019975962516863,
+  "maxdd": -0.4419446312732329,
+  "underwater_days": 2507,
+  "alpha_annual": -0.054279779348488134,
+  "alpha_t": -1.6047167162765446,
+  "beta_mkt": 0.2526808183604933,
+  "r2": 0.31855007315335304
+ },
+ "top_trades": [
+  {
+   "ticker": "CDTX",
+   "entry": "2025-11-10",
+   "ret": 1.107,
+   "pnl": 44187,
+   "share": 0.553
+  },
+  {
+   "ticker": "RKLB",
+   "entry": "2024-11-04",
+   "ret": 1.254,
+   "pnl": 28250,
+   "share": 0.354
+  },
+  {
+   "ticker": "METC",
+   "entry": "2025-09-17",
+   "ret": 0.568,
+   "pnl": 13759,
+   "share": 0.172
+  },
+  {
+   "ticker": "BTDR",
+   "entry": "2026-05-20",
+   "ret": 0.335,
+   "pnl": 9651,
+   "share": 0.121
+  },
+  {
+   "ticker": "SYM",
+   "entry": "2025-09-30",
+   "ret": 0.302,
+   "pnl": 9619,
+   "share": 0.12
+  },
+  {
+   "ticker": "AFRM",
+   "entry": "2023-11-21",
+   "ret": 0.593,
+   "pnl": 9395,
+   "share": 0.118
+  },
+  {
+   "ticker": "NAVN",
+   "entry": "2026-06-23",
+   "ret": 0.19,
+   "pnl": 8947,
+   "share": 0.112
+  },
+  {
+   "ticker": "CELC",
+   "entry": "2025-11-07",
+   "ret": 0.341,
+   "pnl": 8859,
+   "share": 0.111
+  },
+  {
+   "ticker": "MELI",
+   "entry": "2020-05-04",
+   "ret": 0.417,
+   "pnl": 8437,
+   "share": 0.106
+  },
+  {
+   "ticker": "REPL",
+   "entry": "2026-06-12",
+   "ret": 0.306,
+   "pnl": 8405,
+   "share": 0.105
+  }
+ ]
+}

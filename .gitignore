@@ -1,0 +1,34 @@
+# data pulled from WRDS (several GB) and derived caches
+data/
+*.parquet
+*.feather
+*.h5
+
+# large result tables; the small per-spec summary.md, metrics.json, spec.json and cumret.png are kept
+results/**/*.csv
+
+# python
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# credentials and secrets (WRDS uses ~/.pgpass; never commit a copy)
+.pgpass
+*.pgpass
+.env
+.env.*
+*.pem
+*.key
+*credential*
+*secret*
+*token*
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
